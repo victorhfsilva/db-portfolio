@@ -1,7 +1,15 @@
+import { Text } from "@chakra-ui/react";
+
 const Header = () => {
     return (
         <header>
-            <h1>Header</h1>
+            <Text 
+                fontFamily={'decorativo'} 
+                fontWeight={'800'} 
+                fontSize={{base: 'lg', sm: 'xl', md: '2xl'}} 
+                color={'azul.600'}>
+                Header
+            </Text>
         </header>
     )
 }

@@ -1,12 +1,12 @@
 import './App.css'
+import PageRouter from './router/PageRouter'
 
 function App() {
 
   return (
-    <>
-      <h1>Portfólio</h1>
-    </>
+    <PageRouter/>
   )
+  
 }
 
 export default App

@@ -4,13 +4,13 @@ import Habilidades from "./habilidades";
 
 const Home = () => {
     return (
-        <Grid 
-            templateColumns={{base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)'}} 
+        <Grid templateColumns={{base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)'}} 
             gap={'12'}
             marginLeft={'12'}
             marginRight={'12'}
             marginTop={'10'}
             marginBottom={'4'}>
+
                 <GridItem colSpan={2}>
                     <Flex direction={'column'}>
                         <Heading 
@@ -28,9 +28,11 @@ const Home = () => {
                         </Heading>
                     </Flex>
                 </GridItem>
+
                 <GridItem colSpan={{base: 2, md: 1}}>
                     <SobreMim/>
                 </GridItem>
+
                 <GridItem colSpan={{base: 2, md: 1}}>
                     <Habilidades />
                 </GridItem>

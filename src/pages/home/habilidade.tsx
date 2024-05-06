@@ -11,18 +11,26 @@ const Habilidade: React.FC<HabilidadeProps> = ({ nome, nivel }) => {
     }
 
     return (
-    <Flex direction={'row'} paddingBottom={'2'} justifyContent={'space-between'} alignItems={'center'}>
-        <Text fontFamily={'sans_serif'} fontSize={'md'} paddingBottom={'2'}>
-            {nome}
-        </Text>
-        <Flex>
-            {Array(nivel).fill(null).map((_, i) => 
-                <Image paddingRight={'0.5'} key={i} src="/src/assets/estrela_preenchida.svg"/>
-            )}
-            {Array( 5 - nivel).fill(null).map((_, i) => 
-                <Image paddingRight={'0.5'} key={i} src="/src/assets/estrela_vazia.svg"/>
-            )}
-        </Flex>
+    <Flex 
+        direction={'row'} 
+        paddingBottom={'2'} 
+        justifyContent={'space-between'} 
+        alignItems={'center'}>
+            <Text 
+                fontFamily={'sans_serif'} 
+                fontSize={'md'} 
+                paddingBottom={'2'}>
+                    {nome}
+            </Text>
+
+            <Flex>
+                {Array(nivel).fill(null).map((_, i) => 
+                    <Image paddingRight={'0.5'} key={i} src="/src/assets/estrela_preenchida.svg"/>
+                )}
+                {Array( 5 - nivel).fill(null).map((_, i) => 
+                    <Image paddingRight={'0.5'} key={i} src="/src/assets/estrela_vazia.svg"/>
+                )}
+            </Flex>
     </Flex>
     )
 }

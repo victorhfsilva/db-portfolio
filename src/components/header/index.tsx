@@ -8,21 +8,26 @@ const Header = () => {
         <header>
             <Flex background={'blue.100'} justifyContent={'space-between'} alignItems={'center'}>
                 <DB />
+
                 <Flex gap={'3.5'}marginLeft={'16'} marginRight={'5'}>
                     <Link to="/">
                         <Text fontFamily={'decorativo'} color={'azul.800'}>Sobre</Text>
                     </Link>
+                    
                     <Link 
                         to="/src/assets/Victor Hugo Ferreira Silva - Currículo.pdf" 
                         target="_blank" 
                         rel="noopener noreferrer">
                         <Text fontFamily={'decorativo'} color={'azul.800'}>Currículo</Text>
                     </Link>
+                    
                     <Link to="/projetos">
                         <Text fontFamily={'decorativo'} color={'azul.800'}>Projetos</Text>
                     </Link>
                 </Flex>
+
                 <MidiasSociais />
+
             </Flex>
         </header>
     )

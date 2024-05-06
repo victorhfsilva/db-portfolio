@@ -21,15 +21,9 @@ const Habilidades = () => {
                     Back-End
                 </Heading>
                 <Habilidade nome={'Java'} nivel={5} />
-                <Habilidade nome={'SOLID'} nivel={5} />
-                <Habilidade nome={'REST'} nivel={5} />
                 <Habilidade nome={'Spring Boot'} nivel={5} />
-                <Habilidade nome={'Spring Data JPA'} nivel={5} />
-                <Habilidade nome={'Spring Web'} nivel={5} />
                 <Habilidade nome={'Spring Security'} nivel={4} />
                 <Habilidade nome={'Flyway'} nivel={4} />
-                <Habilidade nome={'Testes Unitários'} nivel={5} />
-                <Habilidade nome={'Testes de Integração'} nivel={5} />
             </Flex>
 
             <Flex direction={'column'} paddingBottom={'5'}>
@@ -43,12 +37,8 @@ const Habilidades = () => {
                 <Habilidade nome={'Javascript'} nivel={4} />
                 <Habilidade nome={'Typescript'} nivel={4} />
                 <Habilidade nome={'React'} nivel={4} />
-                <Habilidade nome={'Chakra-UI'} nivel={4} />
-                <Habilidade nome={'Styled Components'} nivel={4} />
                 <Habilidade nome={'HTML'} nivel={3} />
                 <Habilidade nome={'CSS'} nivel={3} />
-                <Habilidade nome={'SASS'} nivel={3} />
-                <Habilidade nome={'Testes Unitários'} nivel={3} />
             </Flex>
 
             <Flex direction={'column'} paddingBottom={'5'}>
@@ -62,7 +52,8 @@ const Habilidades = () => {
                 <Habilidade nome={'Selenium'} nivel={4} />
                 <Habilidade nome={'Rest Assured'} nivel={4} />
                 <Habilidade nome={'Cypress'} nivel={3} />
-                <Habilidade nome={'Técnicas de Testes'} nivel={3} />
+                <Habilidade nome={'Testes Unitários'} nivel={5} />
+                <Habilidade nome={'Testes de Integração'} nivel={5} />
             </Flex>
 
             <Flex direction={'column'} paddingBottom={'5'}>

@@ -20,14 +20,16 @@ const Projeto: React.FC<ProjetoProps> = ({imagem, titulo, habilidades, descricao
             overflow={'auto'}
             marginBottom={'16'}
             >
+
             <Image 
                 src={imagem} 
                 alt={titulo} 
                 paddingBottom={'4'}
                 borderTopLeftRadius={'lg'}
-                borderTopRightRadius={'lg'}
-                />
+                borderTopRightRadius={'lg'}/>
+
             <Flex direction={'column'} justifyContent={'space-between'} height={'100%'}>
+                
                 <Flex direction={'column'} >
                     <Heading 
                         fontFamily={'decorativo'} 
@@ -46,13 +48,14 @@ const Projeto: React.FC<ProjetoProps> = ({imagem, titulo, habilidades, descricao
                             {habilidades}
                     </Text>
                     <Text
-                    fontFamily={'sans_serif'}
-                    fontSize={'xs'}
-                    paddingLeft={'4'}
-                    paddingRight={'4'}>
-                    {descricao}
-                </Text>
+                        fontFamily={'sans_serif'}
+                        fontSize={'xs'}
+                        paddingLeft={'4'}
+                        paddingRight={'4'}>
+                            {descricao}
+                    </Text>
                 </Flex>
+                
                 <Button as={'a'} 
                         href={link}
                         target="_blank" rel="noopener noreferrer"
@@ -61,6 +64,7 @@ const Projeto: React.FC<ProjetoProps> = ({imagem, titulo, habilidades, descricao
                         margin={'4'}>
                             Acessar
                 </Button>
+                
             </Flex>
         </Flex>
     )

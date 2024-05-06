@@ -2,6 +2,7 @@ const cores = {
     transparente: 'transparent',
     preto: '#000',
     branco: '#fff',
+    rosa: '#ED177D',
     azul: {
         50: '#e2f6ff',
         100: '#bee7f9',

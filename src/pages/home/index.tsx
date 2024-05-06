@@ -1,4 +1,4 @@
-import { Button, Flex, Grid, GridItem, Heading, Image, Text } from "@chakra-ui/react"
+import { Button, Flex, Grid, GridItem, Heading, Text } from "@chakra-ui/react"
 import Habilidade from "./habilidade";
 
 const Home = () => {
@@ -67,7 +67,8 @@ const Home = () => {
                                 marginBottom={'4'}
                                 href= "https://github.com/victorhfsilva"
                                 target="_blank" rel="noopener noreferrer"
-                                colorScheme={'gray'}
+                                color={'cinza.800'}
+                                borderColor={'cinza.800'}
                                 variant={'outline'}>
                                 Github
                             </Button>

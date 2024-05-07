@@ -7,7 +7,7 @@ const MidiasSociais = () => {
 
             <Link to="https://github.com/victorhfsilva" target="_blank" rel="noopener noreferrer">
                 <Image 
-                    src="/src/assets/github.svg" 
+                    src="/github.svg" 
                     alt="DB" 
                     boxSize='6' 
                     objectFit='cover'
@@ -17,7 +17,7 @@ const MidiasSociais = () => {
             
             <Link to="https://www.linkedin.com/in/victorhfsilva/" target="_blank" rel="noopener noreferrer">
                 <Image 
-                    src="/src/assets/linkedin.svg" 
+                    src="/linkedin.svg" 
                     alt="DB" 
                     boxSize='6' 
                     objectFit='cover'

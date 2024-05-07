@@ -6,7 +6,7 @@ const DB = () => {
     return (
         <Link to="https://db.tec.br/" target="_blank" rel="noopener noreferrer">
             <Image 
-                src="/src/assets/db.png" 
+                src="/db.png" 
                 alt="DB" 
                 boxSize='16' 
                 objectFit='cover'

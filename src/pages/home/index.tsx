@@ -30,7 +30,7 @@ const Home = () => {
                 </GridItem>
 
                 <GridItem>
-                    <Image src={'/src/assets/victor-silva.jpg'} alt={'Foto de Victor Hugo Ferreira Silva'} />
+                    <Image src={'/victor-silva.jpg'} alt={'Foto de Victor Hugo Ferreira Silva'} />
                 </GridItem>
 
                 <GridItem colSpan={{base: 2, md: 1}}>

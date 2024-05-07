@@ -30,7 +30,7 @@ const Projetos = () => {
 
             <GridItem>
                 <Projeto 
-                    imagem="/src/assets/votacao.jpg" 
+                    imagem="/votacao.jpg" 
                     titulo = "Desafio Votação" 
                     habilidades="Back-End, Front End, QA, DevOps" 
                     descricao="Este projeto foi desenvolvido para o desafio da DBServer. Consiste em um sistema de votação de pautas, onde é possível criar pautas, votar e determinar o tempo das sessões de votação." 
@@ -39,7 +39,7 @@ const Projetos = () => {
   
             <GridItem>
                 <Projeto
-                    imagem="/src/assets/portfolio.png"
+                    imagem="/portfolio.png"
                     titulo = "Portfólio DBServer"  
                     habilidades="Front-End" 
                     descricao="Este projeto teve como objetivo implementar este portfólio, que será utilizado para divulgar meu desenvolvimento dentro da DB."
@@ -49,7 +49,7 @@ const Projetos = () => {
             
             <GridItem>
                 <Projeto
-                    imagem="/src/assets/anotacoes.jpg"
+                    imagem="/anotacoes.jpg"
                     titulo = "Treinamento Anotações do Spring"  
                     habilidades="Back-End, Comunicação" 
                     descricao="Este treinamento foi desenvolvido com o objetivo de disseminar o conhecimento entre trainees da DBServer. Nele exploramos algumas das principais anotações do Spring Boot."

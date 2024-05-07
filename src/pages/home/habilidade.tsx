@@ -25,10 +25,10 @@ const Habilidade: React.FC<HabilidadeProps> = ({ nome, nivel }) => {
 
             <Flex>
                 {Array(nivel).fill(null).map((_, i) => 
-                    <Image paddingRight={'0.5'} key={i} src="/src/assets/estrela_preenchida.svg"/>
+                    <Image paddingRight={'0.5'} key={i} src="/estrela_preenchida.svg"/>
                 )}
                 {Array( 5 - nivel).fill(null).map((_, i) => 
-                    <Image paddingRight={'0.5'} key={i} src="/src/assets/estrela_vazia.svg"/>
+                    <Image paddingRight={'0.5'} key={i} src="/estrela_vazia.svg"/>
                 )}
             </Flex>
     </Flex>

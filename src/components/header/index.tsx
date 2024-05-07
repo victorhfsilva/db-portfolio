@@ -15,7 +15,7 @@ const Header = () => {
                     </Link>
                     
                     <Link 
-                        to="/src/assets/Victor Hugo Ferreira Silva - Currículo.pdf" 
+                        to="/Victor Hugo Ferreira Silva - Currículo.pdf" 
                         target="_blank" 
                         rel="noopener noreferrer">
                         <Text fontFamily={'decorativo'} color={'azul.800'}>Currículo</Text>

@@ -1,4 +1,4 @@
-import { Flex, Grid, GridItem, Heading } from "@chakra-ui/react"
+import { Flex, Grid, GridItem, Heading, Image } from "@chakra-ui/react"
 import SobreMim from "./sobreMim";
 import Habilidades from "./habilidades";
 
@@ -11,7 +11,7 @@ const Home = () => {
             marginTop={'10'}
             marginBottom={'4'}>
 
-                <GridItem colSpan={2}>
+                <GridItem>
                     <Flex direction={'column'}>
                         <Heading 
                             as={'h2'}
@@ -27,6 +27,10 @@ const Home = () => {
                                 Victor Hugo Ferreira Silva
                         </Heading>
                     </Flex>
+                </GridItem>
+
+                <GridItem>
+                    <Image src={'/src/assets/victor-silva.jpg'} alt={'Foto de Victor Hugo Ferreira Silva'} />
                 </GridItem>
 
                 <GridItem colSpan={{base: 2, md: 1}}>

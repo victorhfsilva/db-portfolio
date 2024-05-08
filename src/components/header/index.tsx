@@ -9,20 +9,32 @@ const Header = () => {
             <Flex background={'blue.100'} justifyContent={'space-between'} alignItems={'center'}>
                 <DB />
 
-                <Flex gap={'3.5'}marginLeft={'16'} marginRight={'5'}>
+                <Flex gap={'10'} marginLeft={'16'} marginRight={'5'}>
                     <Link to="/">
-                        <Text fontFamily={'decorativo'} color={'azul.800'}>Sobre</Text>
+                        <Text fontFamily={'decorativo'} 
+                            color={'azul.800'} 
+                            fontSize={'xl'}>
+                                <b>Sobre</b>
+                        </Text>
                     </Link>
                     
                     <Link 
                         to="/Victor Hugo Ferreira Silva - Currículo.pdf" 
                         target="_blank" 
                         rel="noopener noreferrer">
-                        <Text fontFamily={'decorativo'} color={'azul.800'}>Currículo</Text>
+                        <Text fontFamily={'decorativo'} 
+                            color={'azul.800'}
+                            fontSize={'xl'}>
+                                <b>Currículo</b>
+                        </Text>
                     </Link>
                     
                     <Link to="/projetos">
-                        <Text fontFamily={'decorativo'} color={'azul.800'}>Projetos</Text>
+                        <Text fontFamily={'decorativo'} 
+                            color={'azul.800'}
+                            fontSize={'xl'}>
+                                <b>Projetos</b>
+                        </Text>
                     </Link>
                 </Flex>
 

@@ -3,30 +3,38 @@ import Projeto from "./projeto";
 
 const Projetos = () => {
     return (
-        <Grid templateColumns={{base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)', lg: 'repeat(3, 1fr)'}} 
-        gap={'12'}
-        marginLeft={'12'}
-        marginRight={'12'}
-        marginTop={'10'}
-        marginBottom={'4'}>
-                <GridItem colSpan={3}>
-                    <Flex direction={'column'}>
-                        <Heading 
-                            as={'h2'}
-                            fontFamily={'decorativo'} fontSize={'2xl'}
-                            color={'cinza.800'}
-                            marginBottom={'5'}>
-                                Meus
-                        </Heading>
-                        
-                        <Heading 
-                            as={'h1'}
-                            fontFamily={'sans_serif'} fontSize={'4xl'}
-                            color={'cinza.800'}>
-                                Projetos
-                        </Heading>
-                    </Flex>
-                </GridItem>
+        <>
+        <Flex direction={'column'}
+                marginLeft={'12'}
+                marginRight={'12'}
+                paddingLeft={'8%'}
+                paddingRight={'8%'}
+                marginTop={'10'}>
+            <Heading 
+                as={'h2'}
+                fontFamily={'decorativo'} fontSize={'2xl'}
+                color={'cinza.800'}
+                marginBottom={'5'}>
+                    Meus
+            </Heading>
+            
+            <Heading 
+                as={'h1'}
+                fontFamily={'sans_serif'} fontSize={'4xl'}
+                color={'cinza.800'}>
+                    Projetos
+            </Heading>
+        </Flex>
+        <Grid 
+        templateColumns={{base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)', lg: 'repeat(3, 1fr)', '2xl': 'repeat(4, 1fr)'}} 
+            gap={'12'}
+            marginLeft={'12'}
+            marginRight={'12'}
+            paddingLeft={'8%'}
+            paddingRight={'8%'}
+            marginBottom={'4'}
+            marginTop={'10'}
+            justifyItems={'center'}>
 
             <GridItem>
                 <Projeto 
@@ -58,6 +66,7 @@ const Projetos = () => {
             </GridItem>
 
         </Grid>
+        </>
     )
 }
 

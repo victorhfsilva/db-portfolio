@@ -18,7 +18,7 @@ const Habilidade: React.FC<HabilidadeProps> = ({ nome, nivel }) => {
         alignItems={'center'}>
             <Text 
                 fontFamily={'sans_serif'} 
-                fontSize={'md'} 
+                fontSize={'lg'} 
                 paddingBottom={'2'}>
                     {nome}
             </Text>

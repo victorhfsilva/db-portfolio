@@ -13,7 +13,7 @@ const Projeto: React.FC<ProjetoProps> = ({imagem, titulo, habilidades, descricao
         <Flex 
             direction={'column'} 
             width={'64'}
-            height={'26rem'}
+            height={'30rem'}
             background={'cinza.50'} 
             borderRadius={'lg'}
             boxShadow={'lg'}
@@ -33,7 +33,7 @@ const Projeto: React.FC<ProjetoProps> = ({imagem, titulo, habilidades, descricao
                 <Flex direction={'column'} >
                     <Heading 
                         fontFamily={'decorativo'} 
-                        fontSize={'lg'} 
+                        fontSize={'xl'} 
                         as={'h3'}
                         paddingBottom={'1'}
                         paddingLeft={'4'}>
@@ -41,7 +41,7 @@ const Projeto: React.FC<ProjetoProps> = ({imagem, titulo, habilidades, descricao
                     </Heading>
                     <Text 
                         fontFamily={'decorativo'}
-                        fontSize={'xs'}
+                        fontSize={'sm'}
                         color={'rosa'}
                         paddingLeft={'4'}
                         paddingBottom={'3'}>
@@ -49,7 +49,7 @@ const Projeto: React.FC<ProjetoProps> = ({imagem, titulo, habilidades, descricao
                     </Text>
                     <Text
                         fontFamily={'sans_serif'}
-                        fontSize={'xs'}
+                        fontSize={'sm'}
                         paddingLeft={'4'}
                         paddingRight={'4'}>
                             {descricao}
